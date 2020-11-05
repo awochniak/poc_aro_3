@@ -1,0 +1,6 @@
+use_frameworks!
+target 'poc_aro_3_Tests' do
+  pod 'poc_aro_3', :path => '../'
+  
+  
+end
