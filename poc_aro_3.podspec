@@ -28,10 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/awochniak/poc_aro_3.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '14.0'
+  s.swift_version = '5.3'
   s.source_files = 'poc_aro_3/Classes/**/*'
-  
+  s.dependency "poc_aro_2"
   # s.resource_bundles = {
   #   'poc_aro_3' => ['poc_aro_3/Assets/*.png']
   # }
